@@ -19,18 +19,6 @@ This is my __second__ week project. And I must admit it's been a struggle all al
 To run this website simply pull contents from branches __gh-pages or master__.  Alternatively to __view remotely__ simply follow this link:
  https://lucaslb7.github.io/AnitaKitchen-/
 
- Inside the document you should find:
-
-|   file name    |   file type   | size  |
-| :------------- |:-------------:|:------|
-| css            | folder        | 7.7 kb|
-| images         | folder        | 2.1 mb|
-| fonts          | folder        |247.7kb|
-| README.ms      | README file ms|4.6 kb |
-| README.ms(copy)| README file ms|3.3 kb |
-| abtme.html     | html page     |4.3 kb |
-| index.html     | html page (HP)|3.8 kb |
-
 # A BIT ABOUT THE WEBSITE:
 
 The website was created (butchered rather) following our __week 2__ course & includes __javaScript & bootstrap elements.__
@@ -57,20 +45,15 @@ This is how I resized it:
 As you can see i did my best to keep the extra styling to a minimum.... **well kinna :p**
 <br><br>
 
-## The navbar:
+#The elements:
 
-This is an improved version of the navbar used in the TRAVEL AGENCY  project. It has 3 standard buttons & one drop down button with links to other pages (projects) made this week.
+For this website I used the 
 
-All the links are live to other pages in the website. <br><br>
+I feel like my code is a mumbo jumbo of divs, spans etc.. way to messy. Kindly bear in mind I used this opportunity to try new things.
 
+I was unable to create the customers section for this project..:/
 
-1. Buttons link to local pages in repo
-2. Scroll down links to other live (global) github pages.
-
-Navbar is made by having a main navbar div and a dropdown function. <br>
-the dropdown function of floated to the left so that on hover the content is shown:<br>
-
-**.dropdown:hover .dropdown-content { display: block }**
+first section contains a set of rows and collums for the hover: images. i had a problem there with padding i __could not explain__.. meh :p
 
 ## The sectioning, pro's & cons.
 
