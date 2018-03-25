@@ -31,7 +31,10 @@ div.combinePh {
 	background-repeat: no-repeat;
 
 	background-position: center;
+}
 
+#myHeader {
+	font-family: header1;
 }
 
 #images {
@@ -170,7 +173,7 @@ div.textBoxLeft p {
 }
 
 div.backGroundBox {
-  width: 80%;
+  width: 99%;
 }
 
 .row {
@@ -183,6 +186,7 @@ div.backGroundBox {
   background-size: 100%;
 	background-repeat: no-repeat;
   background-attachment: fixed;
+	width: 100%;
 }
 
 
