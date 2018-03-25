@@ -55,7 +55,9 @@ I was unable to create the customers section for this project..:/
 
 first section contains a set of rows and collums for the hover: images. i had a problem there with padding i __could not explain__.. meh :p
 
-We also have our navbar function in the
+I have implemented the Jquery for age verification as per our lesson but despite the fact that I have specified __ready__, the script still seems to load before the page completes.. You can tell from the header image...
+
+My next issue was the
 
 ## The sectioning, pro's & cons.
 
@@ -76,25 +78,6 @@ I decided not to put the images in a div, instead float them. For this I used th
   opacity: 0.5;
 }
 ```
-<br><br>
-
-The table below demonstrates how the website is formed:
-```
-|              Header div                       |
-|:-------------:|:-----------------------------:|
-|   sectionA    |            SectionA           |
-|    image      |              text             |
-|:-----------------------------:|:-------------:|
-|   sectionB                    |    sectionB   |
-|    text                       |      image    |
-|:-------------:|:-----------------------------:|
-|   sectionA    |            SectionA           |
-|    image      |              text             |
-|:-----------------------------:|:-------------:|
-|   sectionB                    |    sectionB   |
-|    text                       |      image    |
-
-```
 
 
 
@@ -113,6 +96,8 @@ https://stackoverflow.com/questions/8608621/how-to-center-div-and-place-at-botto
 https://www.w3schools.com/cssref/sel_hover.asp
 https://www.w3schools.com/howto/default.asp
 https://www.w3schools.com/cssref/pr_class_clear.asp
+
+__Caroussel__ https://www.w3schools.com/bootstrap/bootstrap_carousel.asp
 
 5. Youtube
 
