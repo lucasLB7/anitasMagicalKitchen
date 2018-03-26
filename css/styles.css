@@ -458,33 +458,6 @@ div.scrollmenu a:hover {
 	border: 3px white solid;
 }
 
-.tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-}
-
-/* Style the buttons inside the tab */
-.tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-    font-size: 17px;
-}
-
-/* Change background color of buttons on hover */
-.tab button:hover {
-    background-color: #ddd;
-}
-
-/* Create an active/current tablink class */
-.tab button.active {
-    background-color: #ccc;
-}
 
 /* Style the tab content */
 .tabcontent {
@@ -597,12 +570,7 @@ body {font-family: Arial;}
 }
 
 /* Style the tab content */
-.tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
-}
+
 
 div.happyC {
 	margin:0 auto;
@@ -619,6 +587,49 @@ div.happyC {
 }
 
 
-#noPad {
-	padding: -10%;
+
+.nav3 {
+    background-color: #E9E8C7;
+    height: auto;
+    width: 150px;
+    float: left;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333333;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.icons{
+    display:inline-block;
+    width: 64px;
+    height: 64px;
+   }
+
+ a.icons:hover {
+     background: #C93;
+ }
+
+
+
+.btn.outline {
+	background: none;
+	padding: 12px 22px;
+}
+.btn-primary.outline {
+	border: 2px solid orange;
+	color: #909090;
+}
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+	color: orange;
+	border-color: #33a6cc;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+	border-color: #007299;
+	color: #007299;
+	box-shadow: none;
+}
+div.happyCus {
+
 }

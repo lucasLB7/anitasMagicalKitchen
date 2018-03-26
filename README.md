@@ -47,11 +47,11 @@ As you can see i did my best to keep the extra styling to a minimum.... **well k
 
 #The elements:
 
-For this website I used the
 
-I feel like my code is a mumbo jumbo of divs, spans etc.. way to messy. Kindly bear in mind I used this opportunity to try new things.
 
-I was unable to create the customers section for this project..:/
+I feel like my code is a mumbo jumbo of divs, spans etc.. __way to messy__.
+
+I was unable to create a carousel within the navbar...
 
 first section contains a set of rows and collums for the hover: images. i had a problem there with padding i __could not explain__.. meh :p
 
@@ -59,25 +59,6 @@ I have implemented the Jquery for age verification as per our lesson but despite
 
 My next issue was the
 
-## The sectioning, pro's & cons.
-
-I decided to section my main content in two DIV types and call them sectionA and sectionB. They are almost identical but are reversed so that one will float to the left the other to the right.
-
-<br>
-
-I decided not to put the images in a div, instead float them. For this I used the command:
-
-```
-  div.sectionA img {
-  border-radius: 50%;
-  border: 3px white solid;
-  float: left;
-  height: 600px;
-  width: 600px;
-  transition: all .2s ease-in-out;
-  opacity: 0.5;
-}
-```
 
 
 
