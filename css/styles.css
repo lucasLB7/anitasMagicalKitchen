@@ -467,8 +467,9 @@ div.scrollmenu a:hover {
     border-top: none;
 }
 #orangebg {
-	background-color: #F15A29
-	height: 30px;
+	background-color: #F15A29;
+	height: 3000px;
+	color: white;
 }
 
 
@@ -630,6 +631,11 @@ div.happyC {
 	color: #007299;
 	box-shadow: none;
 }
-div.happyCus {
-
+#subscribe{
+	background-image: url(../images/backgrounds/subscribe.jpg);
+	background-size: cover;
+	height: 200px;
+	text-align: center;
+	margin: 0 auto;
+	color: white;
 }

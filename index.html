@@ -32,17 +32,19 @@
       <!-- Here we start with my dropdown button -->
 
 
-      <div class="overlay">
+      <div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
+          <a href="#">About Us</a>
           <a href="#">Our menu</a>
-          <a href="#">Events & catering</a>
+          <a href="#">Catering</a>
           <a href="#">Contact us</a>
-          <a href="#">About us</a>
         </div>
       </div>
 
-      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MENU</span>
+
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
 
 
 
@@ -242,10 +244,28 @@
 
 
 
+    <div id="subscribe">
+      <div>
+        <h1>subsrice to our mailing list</h1>
+      </div>
+
+      <form action="/action_page.php">
+        Enter your email address: <br>
+        <input type="text" name="firstname">
+
+      </form>
+
+
+    </div>
+
+
+
+
 
 
     <div class="row text-center" id="orangebg">
-      <img src="images/logoBig.png" id="logoSize">
+      <img src="images/footerlogos/logo_white.png">
+      <h1>Menu</h1>
       <!-- We add text -->
       <h1 id="myHeader">We provide <strong>the best</strong> food at
     <strong><u>Incredible</u></strong> prices</h1>
